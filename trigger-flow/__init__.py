@@ -12,6 +12,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     account_sid = "AC9cda8136470937b99dcca0bf9baf1334"
     auth_token = "4f0ce0a3a9d9598c165965c03d635b13"
+    # that is no longer the auth token but just for demo purposes
     client = Client(account_sid, auth_token)
 
     execution = client.studio \
